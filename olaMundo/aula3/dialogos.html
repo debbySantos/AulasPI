@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diálogos Aula 3</title>
+</head>
+<body>
+    <script>
+        function dialogos(){
+            let nome = prompt("Digite seu nome: ");
+            alert("Bem vindo " + nome);
+
+            let resposta = confirm("Você ama Java?");
+            if (resposta) {
+                alert("Você é maluco")
+            }else{
+                alert("Samos inguais")
+            }
+        }
+    </script>
+    <input type="button" value="Clique aqui" onclick="dialogos()">
+</body>
+</html>

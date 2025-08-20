@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arrow Aula 3</title>
+
+    <script>
+
+        const somar = () => {
+            alert("Soma de A + B: " + (Number(document.getElementById("num1").value)
+                                    + Number(document.getElementById("num2").value)));
+        }
+
+        const multiplicar = () => {
+            alert("Soma de A + B: " + (Number(document.getElementById("num1").value)
+                                    * Number(document.getElementById("num2").value)));
+        }
+
+    </script>
+</head>
+
+<body>
+
+    <label for="num1">Digite o primeiro número:</label>
+    <input type="text" id="num1" placeholder="Número 1">
+    <br><br>
+    <label for="num2">Digite o segundo número:</label>
+    <input type="text" id="num2" placeholder="Número 2">
+    <br>
+    <input type="button" value="Confirmar somar" onclick="somar()">
+    <input type="button" value="Confirmar multiplicar" onclick="multiplicar()">
+
+</body>
+
+</html>
